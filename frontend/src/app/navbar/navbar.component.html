@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="['/home']" routerLinkActive="router-link-active">Home
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/aboutus']" routerLinkActive="router-link-active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/faq']" routerLinkActive="router-link-active">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/addstudent']" routerLinkActive="router-link-active">Add Student</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/viewstudent']" routerLinkActive="router-link-active">View Student</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/addbook']" routerLinkActive="router-link-active">Add Book</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/viewbook']" routerLinkActive="router-link-active">View Book</a>
+          </li>
+
+          
+        </ul>
+      </div>
+    </div>
+  </nav>

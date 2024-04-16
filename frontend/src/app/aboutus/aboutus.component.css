@@ -1,0 +1,47 @@
+.about-us {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .services {
+    text-align: center;
+  }
+  
+  .services h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
